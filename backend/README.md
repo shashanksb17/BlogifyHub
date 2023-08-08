@@ -1,5 +1,3 @@
-Sure, I'll help you create a detailed README file in Markdown format for your backend application. Below is a template for your README file that includes an API table and other necessary sections:
-
 
 # BlogifyHub Backend
 
