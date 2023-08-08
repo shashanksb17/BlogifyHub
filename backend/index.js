@@ -58,7 +58,7 @@ app.post('/register', (req, res) => {
       res.status(500).json({ message: 'Failed to register user' });
       return;
     }
-
+  
     const query = 'INSERT INTO bloguser (name, email, password, gender) VALUES (?, ?, ?, ?)';
    
     connection.query(query, [name, email, hashedPassword, gender], (error) => {
