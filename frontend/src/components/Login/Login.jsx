@@ -23,7 +23,7 @@ const Login = () => {
     e.preventDefault();
     if (mode === 'login') {
 
-      fetch('http://localhost:7000/login', {
+      fetch('http://localhost:6000/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ const Login = () => {
           console.error('Login error:', error);
         });
     } else {
-      fetch('http://localhost:7000/register', {
+      fetch('http://localhost:6000/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

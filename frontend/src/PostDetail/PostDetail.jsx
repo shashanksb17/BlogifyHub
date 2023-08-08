@@ -10,7 +10,7 @@ export default function PostDetail() {
 
   useEffect(() => {
     console.log(Id)
-    axios.get(`http://localhost:7000/post/${Id}`)
+    axios.get(`http://localhost:6000/post/${Id}`)
       .then((response) => {
         console.log(response.data)
         setPostData(response.data);

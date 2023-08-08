@@ -132,7 +132,6 @@ app.post('/register', (req, res) => {
     });
 });
 
-
 app.get('/post', (req, res) => {
   const query = 'SELECT * FROM blogposts';
   connection.query(query, (err, results) => {

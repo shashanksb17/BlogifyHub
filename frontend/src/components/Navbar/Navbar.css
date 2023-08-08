@@ -3,11 +3,12 @@
 a{
     text-decoration: none;
     color: azure;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nav {
-    background-color: #2b2d42;
+    background-color: #1e2891;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
   }
   
@@ -26,13 +27,13 @@ a{
   }
   
   .nav > div >a> p:hover {
-    background-color: #3a3e5e;
+    background-color: #3e4cb8;
   }
   
 
   .nav > div > p.active {
-    background-color: #ff6b6b;
-    color: #2b2d42;
+    background-color: #eb5555;
+    color: #3843c0;
     border-radius: 5px;
   }
   

@@ -7,9 +7,10 @@ import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
 export default function Home() {
   const [data, setData] = useState([]);
 
+
+
   useEffect(() => {
-    axios
-      .get('http://localhost:6000/post')
+    axios.get('http://localhost:6000/post')
       .then((response) => {
         const updatedData = response.data.map((item) => ({
           ...item,
